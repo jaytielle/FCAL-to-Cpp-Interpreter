@@ -1,0 +1,683 @@
+Team Zubat
+Jennifer Lieu (lieux007)
+Tommy Her (herxx393)
+Section 11
+
+<< Jennifer Lieu >>
+(scanner.cc / scanner.h / scanner_tests.h)
+- Updated scanner.cc, scanner.h and scanner_tests.h files to include the 4 new token types: bool, true, false and while
+- Updated struct array and regex for the 4 new token types
+- Updated regex tests and terminal tests to include 4 new token types
+- Fixed erroneous regex for single-line comments, integer constants and floating constants; all tests run and pass 100%
+(ext_token.h / ext_token.cc / parser.cc)
+- Fixed and debugged issues with terminal_, lexeme_, and next_ private data type referencing issues to get_terminal_(), get_lexeme_(), and get_next()
+(Makefile)
+- Fixed filename dependency errors
+- Updated Makefile to clear parser_tests.cc and parser_tests files when you "make clean"
+(Google Style Guide)
+- Ran cpplint.py against src/, include/ and /tests files and updated files according to Google guidelines
+
+<< Tommy Her >>
+- Updated Makefile to include additional dependencies and executables: parser.o, ext_token.o, parser_tests.cc, parser_tests
+- Created mysample.dsl file with given pseudocode
+
+<< Commit Log >>
+Jennifers-MacBook-Air-4:project Jaytielle$ git log
+commit aa058952c6742efe76270128294ad9ee71433b02
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 23:18:24 2017 -0600
+
+    Updated iter2-work.txt to iteration2-work.txt and moved to src/ directory per Iteration 2 instructions; updated single-line comment tests in scanner_tests.h; verified code passes all tests
+
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, pa
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always p
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, pars
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc;
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; up
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated i
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated it
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.tx
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:
+commit 12249bccbe2087efa9668a2b2be0b52d17c65070
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:39:54 2017 -0600
+
+    Fixed integer and floating point constant errors; true int/floats are always positive
+
+commit a7de907902e8325aff79ea84f80aeb5377d5a438
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 22:29:47 2017 -0600
+
+    Fixed single line comment issues
+
+commit 2048ffd78c358d23ee872d55a106b66f58dbb4ba
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Mar 4 00:18:13 2017 -0600
+
+    Updated to Google style guide
+
+commit 815864184581dea56fd0d25047591b112fa1a4b2
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:51:08 2017 -0600
+
+    Fixed Makefile errors; updated/fixed issues in ext_token.h, ext_token.cc, parser.cc; updated iter2-work.txt
+
+commit 325600bf2e6f0287ff76d9dc5aeaa213dc2b241f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 23:01:25 2017 -0600
+
+    Updated iter2-work.txt
+
+commit c2c934100a51be81e104c62d27b239d70d383ebe
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 21:19:54 2017 -0600
+
+    Updated make clean; added iter2-work.txt; commented out include/token.h
+
+commit 0f6d580940d67b3fa03bdb2ec79ea306eaa1cdd9
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 3 20:57:34 2017 -0600
+
+    Updated copy of parser.cc from the update in class-repo
+
+commit 2df969bcf4241a3d1606c5f3b74cdebaa0ab4193
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 3 12:09:42 2017 -0600
+
+    modified makefile
+:

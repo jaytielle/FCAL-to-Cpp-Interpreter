@@ -1,0 +1,83 @@
+\hypertarget{classfcal_1_1ast_1_1TypeDecl}{}\section{fcal\+:\+:ast\+:\+:Type\+Decl Class Reference}
+\label{classfcal_1_1ast_1_1TypeDecl}\index{fcal\+::ast\+::\+Type\+Decl@{fcal\+::ast\+::\+Type\+Decl}}
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+
+
+Inheritance diagram for fcal\+:\+:ast\+:\+:Type\+Decl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{classfcal_1_1ast_1_1TypeDecl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fcal\+:\+:ast\+:\+:Type\+Decl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{classfcal_1_1ast_1_1TypeDecl__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1ast_1_1TypeDecl_a4c868271f28ab2f823c857b5652d8003}{Type\+Decl} (\hyperlink{classfcal_1_1ast_1_1VarName}{Var\+Name} $\ast$type, \hyperlink{classfcal_1_1ast_1_1VarName}{Var\+Name} $\ast$var\+\_\+name)
+\item 
+std\+::string \hyperlink{classfcal_1_1ast_1_1TypeDecl_a9b43062210aaf0501a180a4356f020e9}{unparse} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} \hyperlink{classfcal_1_1ast_1_1TypeDecl_a9b43062210aaf0501a180a4356f020e9}{unparse()} method. \end{DoxyCompactList}\item 
+std\+::string {\bfseries cpp\+\_\+code} ()\hypertarget{classfcal_1_1ast_1_1TypeDecl_a12b9b2cb78a0d6b3fd40f80844c2a029}{}\label{classfcal_1_1ast_1_1TypeDecl_a12b9b2cb78a0d6b3fd40f80844c2a029}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} class inherits directly from the parent \hyperlink{classfcal_1_1ast_1_1Decl}{Decl} class. The \hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} class combines the redundant nature of the implementing multiple production rule classes to define integer, float, string and boolean data types.
+
+The integer, float, string and data types is defined by the $\ast$type parameter that is passed to the constructor. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::ast\+::\+Type\+Decl@{fcal\+::ast\+::\+Type\+Decl}!Type\+Decl@{Type\+Decl}}
+\index{Type\+Decl@{Type\+Decl}!fcal\+::ast\+::\+Type\+Decl@{fcal\+::ast\+::\+Type\+Decl}}
+\subsubsection[{\texorpdfstring{Type\+Decl(\+Var\+Name $\ast$type, Var\+Name $\ast$var\+\_\+name)}{TypeDecl(VarName *type, VarName *var_name)}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::ast\+::\+Type\+Decl\+::\+Type\+Decl (
+\begin{DoxyParamCaption}
+\item[{{\bf Var\+Name} $\ast$}]{type, }
+\item[{{\bf Var\+Name} $\ast$}]{var\+\_\+name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}\hypertarget{classfcal_1_1ast_1_1TypeDecl_a4c868271f28ab2f823c857b5652d8003}{}\label{classfcal_1_1ast_1_1TypeDecl_a4c868271f28ab2f823c857b5652d8003}
+\hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} production class takes the parameters\+: $\ast$type and $\ast$var\+\_\+name 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$type} & defines the data type of the declaration \\
+\hline
+{\em $\ast$var\+\_\+name} & defines the variable name of the specific data type \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::ast\+::\+Type\+Decl@{fcal\+::ast\+::\+Type\+Decl}!unparse@{unparse}}
+\index{unparse@{unparse}!fcal\+::ast\+::\+Type\+Decl@{fcal\+::ast\+::\+Type\+Decl}}
+\subsubsection[{\texorpdfstring{unparse()}{unparse()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fcal\+::ast\+::\+Type\+Decl\+::unparse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classfcal_1_1ast_1_1TypeDecl_a9b43062210aaf0501a180a4356f020e9}{}\label{classfcal_1_1ast_1_1TypeDecl_a9b43062210aaf0501a180a4356f020e9}
+
+
+\hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} \hyperlink{classfcal_1_1ast_1_1TypeDecl_a9b43062210aaf0501a180a4356f020e9}{unparse()} method. 
+
+\hyperlink{classfcal_1_1ast_1_1TypeDecl}{Type\+Decl} returns the type\+\_\+ and var\+\_\+name\+\_\+ of a declaration. 
+
+Implements \hyperlink{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}{fcal\+::ast\+::\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/ast.\+h\item 
+src/ast.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,789 @@
+Team Zubat
+Jennifer Lieu (lieux007)
+Tommy Her (herxx393)
+Section 11
+
+-----------------
+| Jennifer Lieu |
+-----------------
+<< ast.h >>
+- Created declarations for the various AST production rule classes
+- Edited/updated issues and errors with classes (Joint)
+- Simplified redundant class declarations (TypeDecl and TypeConst)
+
+<< ast.cc >>
+- Debugged and reformatted some errors with various unparse() functions
+
+<< parser.cc >>
+- Updated parser.cc to instantiate objects for various production rules (Joint)
+- Debugged parser.cc errors
+- Updated code for restructured TypeDecl and TypeConst classes
+
+<< scanner.cc / scanner_tests.h >>
+- Moved token_type_tester() function from scanner.cc to scanner_tests.h; updated function to work properly in the file
+
+<< Makefile >>
+- Updated file to include AST related files
+
+<< .gitignore >>
+- Updated .gitignore to ignore additional files
+
+<< UML Diagram >>
+- Created and finalized UML Diagram
+
+<< dOxygen Documentation >>
+- Added dOyxgen formatted comments to all classes in ast.h, and ast.cc
+- Added dOxygen formatted comments to scanner.h, and scanner.cc
+
+-------------
+| Tommy Her |
+-------------
+<< ast.h >>
+- Edited/updated issues and errors with classes (Joint)
+
+<< ast.cc >>
+- Created unparse() functions for all classes
+
+<< parser.cc >>
+- Updated parser.cc to instantiate objects for various production rules (Joint)
+
+<< Makefile >>
+- Updated errors with Makefile
+
+<< UML Diagram >>
+- Updated some minor issues with classes
+
+<< dOxygen Documentation >>
+- Added dOxygen formatted comments to parser.cc
+- Added dOxygen formatted comments to ast_tests.h
+- Created dOxygen documentation
+
+--------------
+| Commit Log |
+--------------
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+
+    Added UML class diagram - Writing 2 (Final Draft)
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+
+    Added UML class diagram - Writing 2 (Final Draft)
+
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+
+    Added UML class diagram - Writing 2 (Final Draft)
+
+commit b0363dfa4f446187fa92b8fcb420cbe1fc47ee9a
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+
+    Added UML class diagram - Writing 2 (Final Draft)
+
+commit b0363dfa4f446187fa92b8fcb420cbe1fc47ee9a
+Author: Jennifer Lieu <lieux007@umn.edu>
+:
+commit 53cd3811a10f421e7eab98e2a6f03135e61d1fe6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:44:26 2017 -0500
+
+    Added iter3Documentation.pdf to /project
+
+commit 27603e167fd412089c694e6c686dac7403d4c45c
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 18:23:33 2017 -0500
+
+    Changed UML diagram to .pdf format; updated iteration3-work.txt; checked fil
+
+commit 854a595c9ee6dc9692dfce8df0a9c614ef56e73d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 16:57:34 2017 -0500
+
+    added doxygen comments in ast_tests.h describing what the tests were testing
+
+commit 9218422eea6d18d7b617ebcc68cf047e1894e78e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 15:29:10 2017 -0500
+
+    Formatted ast.h so class member methods and attributes are listed accordingl
+
+commit 9f2866b46b76757631ac6af495fa6a6e9eceefd1
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sat Apr 8 14:09:27 2017 -0500
+
+    finished the last dOxygen commenting on parser.cc, added mainpage.h to the i
+
+commit 03539a6da2c8518489c0db972fa780871efe98f3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:29:44 2017 -0500
+
+    Moved UML diagram and iteration3-work.txt to src per the syllabus
+
+commit b9d49bf4a0f1d0a1468c24e11f802836632bd48a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:11:54 2017 -0500
+
+    Updated iteration3-work.txt with commit logs
+
+commit ceb391d0e9a85ba1d6c36c94efc35ef0a5b162e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 8 00:08:24 2017 -0500
+
+    Added UML class diagram - Writing 2 (Final Draft)
+
+commit b0363dfa4f446187fa92b8fcb420cbe1fc47ee9a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 7 23:08:34 2017 -0500
+
+    Fixed some dOxygen comment errors in ast.h
+
+commit 5fbcad38a028908452d2cdc00e0c00d1456387f7
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 7 22:14:46 2017 -0500
+
+    Added dOxygen formatted comments to ast.h, ast.cc, scanner.h and scanner.cc.
+
+commit f7e1714181076889edbf7cfd53207eb6e61a07a1
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 7 21:18:10 2017 -0500
+
+    Finished dOxygen formatted comments for ast.h
+
+commit 0c3689a6f6e26e3f37f26b905b75899945c87131
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 7 18:52:11 2017 -0500
+
+    Added dOxygen formatted comments to ast.h from Node to Stmt classes
+
+commit 3d524adc3f5f9fb7132f04544a4d5f48a2f80b6d
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 7 11:53:49 2017 -0500
+
+    Combined TypeConst classes for IntConst, FloatConst and StrConst
+
+commit 0a05d11e3cd31b41cfcd9b25c34e86237e334a3b
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 6 20:02:09 2017 -0500
+
+    Added iteration3-work.txt to /project dir; removed unnecessary EOFTokenGener
+
+commit 3c2490d0d79846badd4f812d514f25ce35307462
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 6 19:40:37 2017 -0500
+
+    Updated Makefile to clean .dslup1/.dslup2/.dslup3 files; updated .gitignore 
+
+commit daeefd103647d99a3998464ebac56ac3aab15f57
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 6 13:49:39 2017 -0500
+
+    Fixed errors, all tests passed
+
+commit 56d596229991768ea384996658390ab3e6a1e0cd
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 6 12:10:58 2017 -0500
+
+    Fixed LetExpr in ast.h, ast.cc and parser.cc
+
+commit d214b6a19147eb5ca8b53c5e5b898a28ce6fd3ed
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 6 11:59:53 2017 -0500
+
+    Fixed parser.cc because it was missing Stmt ::= Decl on lines 213 - 216
+
+commit 2b9e0a9c7cb3146c3d669c91f2012c7d79acd1e0
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 4 11:46:41 2017 -0500
+
+    Renamed function names to Google style conventions
+
+commit ecc0dcec09d8d2ef42f788174504800239046127
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 4 11:33:09 2017 -0500
+
+    Moved token_type_tester() and end_token_tester() to scanner.h per the TA
+
+commit 9f4aceea6617d947bec3e774e0bb9e1c9335e504
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 22:27:16 2017 -0500
+
+    Updated files to Google style guide, and reorganized methods
+
+commit 71a38a14f3be6018df349d1ca03932aa70a5149f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 21:43:30 2017 -0500
+
+    Finished parse addition/multiplication/subtraction/division/relation_expr fu
+
+commit 07b3d3451c7b5d479ca4d08e67cd47b90277d300
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 20:50:51 2017 -0500
+
+    Added BinaryOp class to ast.h and ast.cc; commented out BoolConst from ast.h
+
+commit dca370f0eed89f7e4b1d384d35ed076ef93bad95
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 20:00:23 2017 -0500
+
+    changed the constants to not take in pointers but rather the actual string, 
+
+commit 297f4ad7a5f049bf44b6255e1872aa3fac8f2ee6
+Merge: 9358428 46313f0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 18:27:22 2017 -0500
+
+    fixed merged conflictions
+
+commit 93584284c8ede8cc880b154fb3e2b5b543eb7ac0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 18:21:41 2017 -0500
+
+    half way finished with augmenting parser.cc with the ast features
+
+commit 46313f058610ba80a4d1d3fafab8bcaf47b5cb4e
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 17:34:27 2017 -0500
+
+    Fixed head/merge errors from reversion issues
+
+commit 9036148b359a1b6b33297cf974ba4925c5930708
+Merge: 8ec4fbe fd71293
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 17:31:40 2017 -0500
+
+    Reverted to previous state
+
+commit 8ec4fbe5e9945ef93291f4408e5c7ad36898c4f7
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 17:30:31 2017 -0500
+
+    Reverted to previous state from merge
+
+commit fd71293e559848c13a976a9863b54c2d003415e8
+Merge: d109172 e7dedfa
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 17:01:12 2017 -0500
+
+    Reorganized ast.h, ast.cc
+
+commit d109172a4ffd19bde8755f05136bce5189f695cf
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 16:59:03 2017 -0500
+
+    Reorganized ast.h and ast.cc
+
+commit e7dedfa9c902ada13dfaacda7ab1dcb5c1d757e4
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 14:03:11 2017 -0500
+
+    added True and False Decls, added \n to print statements and modified one pr
+
+commit 62941f38815d7b4acc0f4520277a31ac82ba3f27
+Merge: cd94209 d0c8e15
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 01:16:01 2017 -0500
+
+    Merge ast.h
+
+commit cd9420905f1687e80593c7a199572f71d5d5572a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Mon Apr 3 01:14:00 2017 -0500
+
+    Updated ast.h
+
+commit d0c8e153f4c5177edc2479134b8d4f23866bdf5d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 00:46:32 2017 -0500
+
+    modified Makefile to include all of the needed files to stop the undefined r
+
+commit 05840455001ac58fb5b1407d0102de570dc7aa54
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Mon Apr 3 00:03:44 2017 -0500
+
+    finished the ast.cc but there are undefined references for the VarName, fixe
+
+commit 85d24eeae2bea50056a6fd46096560e6fe1527f1
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 1 22:32:47 2017 -0500
+
+    Finished include/ast.h class declarations
+
+commit 29a6a562bec390292c213e78c066a2e2efbc9eaa
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 1 19:04:51 2017 -0500
+
+    Reorganized include/ast.h
+
+commit 9d80b1290ee3510231637d09a4ed6e6c5e8fe998
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 1 18:29:52 2017 -0500
+
+    Declared Program, all Stmts and Stmt classes in include/ast.h; updated Makef
+
+commit a080e2519c87e0d2c93b36276dfb923d628d9320
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Sat Apr 1 11:27:04 2017 -0500
+
+    Updated Makefile for ast/ast_tests; created src/ast.cc file; updated formatt
+
+commit e7c6095b078706855f8342451f53325d66da9b26
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Fri Mar 31 12:04:12 2017 -0500
+
+    made changes to class Node, made unparse pure virtual and added VarName + St
+
+commit a829e545260c289ade9b7080143afe338327cdc1
+Merge: fa82f90 bebf386
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 31 12:00:10 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit fa82f9075e11e107da8ece9122bedb3778f429f4
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 31 11:59:45 2017 -0500
+
+    Updated src/parser.cc to create objects for Parser::ParseProgram() and Parse
+
+commit e249b015f289ecae6232dcc0a8b268b9f3c27d62
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 31 11:15:44 2017 -0500
+
+    Added grammar.txt file to project
+
+commit ecce7b8193bac0dc35c3222fd3db3ef797c27235
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Mar 30 12:19:48 2017 -0500
+
+    Updated ast_tests.h to newest version
+
+commit bebf386bef8d0e1695cc08706dd4b4626ced0d9b
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 24 15:21:08 2017 -0500
+
+    Updated with improvements.pdf
+
+commit 274f598070570df12a52f97bc5951d4576acac15
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Mar 24 03:21:53 2017 -0500
+
+    Updated repo with Iter-3 file: ast_tests.h

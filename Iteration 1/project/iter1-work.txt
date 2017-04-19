@@ -1,0 +1,38 @@
+Team Zubat
+Jennifer Lieu (lieux007)
+Tommy Her (herxx393)
+Section 11
+
+[Set-up GitHub Iteration 1 Tag]
+- Set-up iter1 tag (Jennifer Lieu)
+
+[Google Style Guide]
+- Formatted files to proper C++ Google styling (Jennifer Lieu)
+- include files:
+    regex.h
+    read_input.h
+    scanner.h
+- src files:
+    regex.cc
+    read_input.cc
+    scanner.cc
+- tests files:
+    regex_tests.h
+    scanner_tests.h
+
+[Token Class]
+- Created Token class to specifications (Tommy Her)
+- Fixed issues with Token Class concerning namespaces, declarations and definitions (Jennifer Lieu)
+
+[Regular Expressions]
+- Created regular expressions to determine Token types (Joint)
+
+[Scanner Class]
+- Defined Scanner class constructors and mutators (Jennifer Lieu)
+- Created *Scan method (Jennifer Lieu)
+
+[Regex Tests]
+- Created unit test cases for regular expressions (Jennifer Lieu)
+
+[Terminal-based Tests]
+- Created 41 individual terminal tests (Jennifer Lieu)
