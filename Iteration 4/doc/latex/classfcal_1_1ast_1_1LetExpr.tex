@@ -1,0 +1,84 @@
+\hypertarget{classfcal_1_1ast_1_1LetExpr}{}\section{fcal\+:\+:ast\+:\+:Let\+Expr Class Reference}
+\label{classfcal_1_1ast_1_1LetExpr}\index{fcal\+::ast\+::\+Let\+Expr@{fcal\+::ast\+::\+Let\+Expr}}
+
+
+The \hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} class inherits directly from the abstract \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} class.  
+
+
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+
+
+Inheritance diagram for fcal\+:\+:ast\+:\+:Let\+Expr\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{classfcal_1_1ast_1_1LetExpr__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fcal\+:\+:ast\+:\+:Let\+Expr\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{classfcal_1_1ast_1_1LetExpr__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1ast_1_1LetExpr_ab74edb2ea044f4a53e3aaf07ba3e692a}{Let\+Expr} (\hyperlink{classfcal_1_1ast_1_1Stmts}{Stmts} $\ast$stmts, \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} $\ast$expr)
+\item 
+std\+::string \hyperlink{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}{unparse} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} \hyperlink{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}{unparse()} method. \end{DoxyCompactList}\item 
+std\+::string {\bfseries cpp\+\_\+code} ()\hypertarget{classfcal_1_1ast_1_1LetExpr_a960972260e0f70e3baa79b10d5c0d8ce}{}\label{classfcal_1_1ast_1_1LetExpr_a960972260e0f70e3baa79b10d5c0d8ce}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} class inherits directly from the abstract \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::ast\+::\+Let\+Expr@{fcal\+::ast\+::\+Let\+Expr}!Let\+Expr@{Let\+Expr}}
+\index{Let\+Expr@{Let\+Expr}!fcal\+::ast\+::\+Let\+Expr@{fcal\+::ast\+::\+Let\+Expr}}
+\subsubsection[{\texorpdfstring{Let\+Expr(\+Stmts $\ast$stmts, Expr $\ast$expr)}{LetExpr(Stmts *stmts, Expr *expr)}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::ast\+::\+Let\+Expr\+::\+Let\+Expr (
+\begin{DoxyParamCaption}
+\item[{{\bf Stmts} $\ast$}]{stmts, }
+\item[{{\bf Expr} $\ast$}]{expr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}\hypertarget{classfcal_1_1ast_1_1LetExpr_ab74edb2ea044f4a53e3aaf07ba3e692a}{}\label{classfcal_1_1ast_1_1LetExpr_ab74edb2ea044f4a53e3aaf07ba3e692a}
+\hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} production rules take the parameters\+: $\ast$stmts and $\ast$expr 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stmts} & are the statements between let and in \\
+\hline
+{\em $\ast$expr} & is the expression after in and before end \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::ast\+::\+Let\+Expr@{fcal\+::ast\+::\+Let\+Expr}!unparse@{unparse}}
+\index{unparse@{unparse}!fcal\+::ast\+::\+Let\+Expr@{fcal\+::ast\+::\+Let\+Expr}}
+\subsubsection[{\texorpdfstring{unparse()}{unparse()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fcal\+::ast\+::\+Let\+Expr\+::unparse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}{}\label{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}
+
+
+\hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} \hyperlink{classfcal_1_1ast_1_1LetExpr_a5277bbe3510e870f65dd9158592ef6da}{unparse()} method. 
+
+\hyperlink{classfcal_1_1ast_1_1LetExpr}{Let\+Expr} returns the stmts\+\_\+ and expr\+\_\+ paramters. 
+
+Implements \hyperlink{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}{fcal\+::ast\+::\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/ast.\+h\item 
+src/ast.\+cc\end{DoxyCompactItemize}

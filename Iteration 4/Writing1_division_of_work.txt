@@ -1,0 +1,19 @@
+<< Jennifer Lieu >>
+- Answered Lab 8 Questions (Joint)
+- Updated scanner.cc/scanner.h/scanner_tests.h files for Question 1
+- Writing Assignment:
+          - Introduction
+          - Issue 1 (Question 1)
+          - Conclusion
+          - Proofread Paper
+
+<< Tommy Her >>
+- Answered Lab 8 Questions (Joint)
+- Updated scanner.cc/scanner.h/scanner_tests.h files for Question 2
+- Updated scanner.cc/scanner.h/scanner_tests.h files for Question 5
+- Writing Assignment:
+          - Issue 2
+          - Issue 3
+          - Issue 4
+          - Issue 5
+          - Issue 6

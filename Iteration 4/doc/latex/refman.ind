@@ -1,0 +1,307 @@
+\begin{theindex}
+
+  \item {$\sim$\+Program}
+    \subitem {fcal\+::ast\+::\+Program}, \hyperpage{62}
+
+  \indexspace
+
+  \item {Assign\+Long\+Stmt}
+    \subitem {fcal\+::ast\+::\+Assign\+Long\+Stmt}, \hyperpage{8}
+  \item {Assign\+Stmt}
+    \subitem {fcal\+::ast\+::\+Assign\+Stmt}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Binary\+Op}
+    \subitem {fcal\+::ast\+::\+Binary\+Op}, \hyperpage{12}
+  \item {Block\+Stmt}
+    \subitem {fcal\+::ast\+::\+Block\+Stmt}, \hyperpage{14}
+
+  \indexspace
+
+  \item {consume\+\_\+whitespace\+\_\+and\+\_\+comments}
+    \subitem {fcal\+::scanner\+::\+Scanner}, \hyperpage{66}
+
+  \indexspace
+
+  \item {fcal\+::ast\+::\+Assign\+Long\+Stmt}, \hyperpage{7}
+    \subitem {Assign\+Long\+Stmt}, \hyperpage{8}
+    \subitem {unparse}, \hyperpage{8}
+  \item {fcal\+::ast\+::\+Assign\+Stmt}, \hyperpage{9}
+    \subitem {Assign\+Stmt}, \hyperpage{10}
+    \subitem {unparse}, \hyperpage{10}
+  \item {fcal\+::ast\+::\+Binary\+Op}, \hyperpage{11}
+    \subitem {Binary\+Op}, \hyperpage{12}
+    \subitem {unparse}, \hyperpage{12}
+  \item {fcal\+::ast\+::\+Block\+Stmt}, \hyperpage{13}
+    \subitem {Block\+Stmt}, \hyperpage{14}
+    \subitem {unparse}, \hyperpage{14}
+  \item {fcal\+::ast\+::\+Bool\+False}, \hyperpage{14}
+    \subitem {unparse}, \hyperpage{15}
+  \item {fcal\+::ast\+::\+Bool\+True}, \hyperpage{16}
+    \subitem {unparse}, \hyperpage{17}
+  \item {fcal\+::ast\+::\+Decl}, \hyperpage{19}
+  \item {fcal\+::ast\+::\+Empty\+Stmts}, \hyperpage{20}
+    \subitem {unparse}, \hyperpage{21}
+  \item {fcal\+::ast\+::\+End\+Stmt}, \hyperpage{22}
+    \subitem {unparse}, \hyperpage{23}
+  \item {fcal\+::ast\+::\+Expr}, \hyperpage{24}
+  \item {fcal\+::ast\+::\+If\+Else\+Stmt}, \hyperpage{30}
+    \subitem {If\+Else\+Stmt}, \hyperpage{31}
+    \subitem {unparse}, \hyperpage{31}
+  \item {fcal\+::ast\+::\+If\+Expr}, \hyperpage{32}
+    \subitem {If\+Expr}, \hyperpage{33}
+    \subitem {unparse}, \hyperpage{33}
+  \item {fcal\+::ast\+::\+If\+Stmt}, \hyperpage{33}
+    \subitem {If\+Stmt}, \hyperpage{35}
+    \subitem {unparse}, \hyperpage{35}
+  \item {fcal\+::ast\+::\+Let\+Expr}, \hyperpage{38}
+    \subitem {Let\+Expr}, \hyperpage{39}
+    \subitem {unparse}, \hyperpage{39}
+  \item {fcal\+::ast\+::\+Matrix\+Decl}, \hyperpage{41}
+    \subitem {Matrix\+Decl}, \hyperpage{42}
+    \subitem {unparse}, \hyperpage{42}
+  \item {fcal\+::ast\+::\+Matrix\+Long\+Decl}, \hyperpage{42}
+    \subitem {Matrix\+Long\+Decl}, \hyperpage{44}
+    \subitem {unparse}, \hyperpage{44}
+  \item {fcal\+::ast\+::\+Matrix\+Ref}, \hyperpage{44}
+    \subitem {Matrix\+Ref}, \hyperpage{46}
+    \subitem {unparse}, \hyperpage{46}
+  \item {fcal\+::ast\+::\+Nested\+Or\+Func\+Call}, \hyperpage{47}
+    \subitem {Nested\+Or\+Func\+Call}, \hyperpage{48}
+    \subitem {unparse}, \hyperpage{48}
+  \item {fcal\+::ast\+::\+Node}, \hyperpage{48}
+  \item {fcal\+::ast\+::\+Not\+Expr}, \hyperpage{50}
+    \subitem {Not\+Expr}, \hyperpage{51}
+    \subitem {unparse}, \hyperpage{51}
+  \item {fcal\+::ast\+::\+Paren\+Expr}, \hyperpage{53}
+    \subitem {Paren\+Expr}, \hyperpage{54}
+    \subitem {unparse}, \hyperpage{54}
+  \item {fcal\+::ast\+::\+Print\+Stmt}, \hyperpage{59}
+    \subitem {Print\+Stmt}, \hyperpage{60}
+    \subitem {unparse}, \hyperpage{60}
+  \item {fcal\+::ast\+::\+Program}, \hyperpage{61}
+    \subitem {$\sim$\+Program}, \hyperpage{62}
+    \subitem {Program}, \hyperpage{62}
+    \subitem {unparse}, \hyperpage{62}
+  \item {fcal\+::ast\+::\+Repeat\+Stmt}, \hyperpage{64}
+    \subitem {Repeat\+Stmt}, \hyperpage{65}
+    \subitem {unparse}, \hyperpage{65}
+  \item {fcal\+::ast\+::\+Seq\+Stmts}, \hyperpage{67}
+    \subitem {Seq\+Stmts}, \hyperpage{68}
+    \subitem {unparse}, \hyperpage{68}
+  \item {fcal\+::ast\+::\+Stmt}, \hyperpage{70}
+  \item {fcal\+::ast\+::\+Stmt\+Decl}, \hyperpage{71}
+    \subitem {Stmt\+Decl}, \hyperpage{72}
+    \subitem {unparse}, \hyperpage{72}
+  \item {fcal\+::ast\+::\+Stmts}, \hyperpage{72}
+  \item {fcal\+::ast\+::\+Type\+Const}, \hyperpage{77}
+    \subitem {Type\+Const}, \hyperpage{78}
+    \subitem {unparse}, \hyperpage{78}
+  \item {fcal\+::ast\+::\+Type\+Decl}, \hyperpage{78}
+    \subitem {Type\+Decl}, \hyperpage{80}
+    \subitem {unparse}, \hyperpage{80}
+  \item {fcal\+::ast\+::\+Var\+Name}, \hyperpage{81}
+    \subitem {unparse}, \hyperpage{82}
+    \subitem {Var\+Name}, \hyperpage{82}
+  \item {fcal\+::ast\+::\+While\+Stmt}, \hyperpage{83}
+    \subitem {unparse}, \hyperpage{84}
+    \subitem {While\+Stmt}, \hyperpage{84}
+  \item {fcal\+::parser\+::\+Parse\+Result}, \hyperpage{58}
+  \item {fcal\+::parser\+::\+Parser}, \hyperpage{54}
+    \subitem {parse\+\_\+addition}, \hyperpage{55}
+    \subitem {parse\+\_\+decl}, \hyperpage{55}
+    \subitem {parse\+\_\+division}, \hyperpage{55}
+    \subitem {parse\+\_\+false\+\_\+kwd}, \hyperpage{55}
+    \subitem {parse\+\_\+float\+\_\+const}, \hyperpage{55}
+    \subitem {parse\+\_\+if\+\_\+expr}, \hyperpage{55}
+    \subitem {parse\+\_\+int\+\_\+const}, \hyperpage{56}
+    \subitem {parse\+\_\+let\+\_\+expr}, \hyperpage{56}
+    \subitem {parse\+\_\+matrix\+\_\+decl}, \hyperpage{56}
+    \subitem {parse\+\_\+multiplication}, \hyperpage{56}
+    \subitem {parse\+\_\+nested\+\_\+expr}, \hyperpage{56}
+    \subitem {parse\+\_\+not\+\_\+expr}, \hyperpage{56}
+    \subitem {parse\+\_\+relational\+\_\+expr}, \hyperpage{56}
+    \subitem {parse\+\_\+standard\+\_\+decl}, \hyperpage{56}
+    \subitem {parse\+\_\+stmt}, \hyperpage{56}
+    \subitem {parse\+\_\+stmts}, \hyperpage{57}
+    \subitem {parse\+\_\+string\+\_\+const}, \hyperpage{57}
+    \subitem {parse\+\_\+subtraction}, \hyperpage{57}
+    \subitem {parse\+\_\+true\+\_\+kwd}, \hyperpage{57}
+    \subitem {parse\+\_\+variable\+\_\+name}, \hyperpage{57}
+  \item {fcal\+::scanner\+::\+Char\+Const\+Token}, \hyperpage{17}
+  \item {fcal\+::scanner\+::\+Dash\+Token}, \hyperpage{18}
+  \item {fcal\+::scanner\+::\+End\+Of\+File\+Token}, \hyperpage{21}
+  \item {fcal\+::scanner\+::\+Ext\+Token}, \hyperpage{26}
+  \item {fcal\+::scanner\+::\+False\+Kwd\+Token}, \hyperpage{27}
+  \item {fcal\+::scanner\+::\+Float\+Const\+Token}, \hyperpage{28}
+  \item {fcal\+::scanner\+::\+Forward\+Slash\+Token}, \hyperpage{29}
+  \item {fcal\+::scanner\+::\+If\+Token}, \hyperpage{35}
+  \item {fcal\+::scanner\+::\+Int\+Const\+Token}, \hyperpage{36}
+  \item {fcal\+::scanner\+::\+Left\+Paren\+Token}, \hyperpage{37}
+  \item {fcal\+::scanner\+::\+Let\+Token}, \hyperpage{40}
+  \item {fcal\+::scanner\+::\+Not\+Op\+Token}, \hyperpage{52}
+  \item {fcal\+::scanner\+::\+Plus\+Sign\+Token}, \hyperpage{58}
+  \item {fcal\+::scanner\+::\+Relational\+Op\+Token}, \hyperpage{63}
+  \item {fcal\+::scanner\+::\+Scanner}, \hyperpage{65}
+    \subitem {consume\+\_\+whitespace\+\_\+and\+\_\+comments}, 
+		\hyperpage{66}
+    \subitem {Init\+Regex\+Token\+Array}, \hyperpage{66}
+    \subitem {Scan}, \hyperpage{66}
+    \subitem {Scanner}, \hyperpage{66}
+  \item {fcal\+::scanner\+::\+Star\+Token}, \hyperpage{69}
+  \item {fcal\+::scanner\+::\+String\+Const\+Token}, \hyperpage{74}
+  \item {fcal\+::scanner\+::\+Token}, \hyperpage{75}
+    \subitem {Token}, \hyperpage{75}
+  \item {fcal\+::scanner\+::\+True\+Kwd\+Token}, \hyperpage{76}
+  \item {fcal\+::scanner\+::\+Variable\+Name\+Token}, \hyperpage{80}
+
+  \indexspace
+
+  \item {If\+Else\+Stmt}
+    \subitem {fcal\+::ast\+::\+If\+Else\+Stmt}, \hyperpage{31}
+  \item {If\+Expr}
+    \subitem {fcal\+::ast\+::\+If\+Expr}, \hyperpage{33}
+  \item {If\+Stmt}
+    \subitem {fcal\+::ast\+::\+If\+Stmt}, \hyperpage{35}
+  \item {Init\+Regex\+Token\+Array}
+    \subitem {fcal\+::scanner\+::\+Scanner}, \hyperpage{66}
+
+  \indexspace
+
+  \item {Let\+Expr}
+    \subitem {fcal\+::ast\+::\+Let\+Expr}, \hyperpage{39}
+
+  \indexspace
+
+  \item {Matrix\+Decl}
+    \subitem {fcal\+::ast\+::\+Matrix\+Decl}, \hyperpage{42}
+  \item {Matrix\+Long\+Decl}
+    \subitem {fcal\+::ast\+::\+Matrix\+Long\+Decl}, \hyperpage{44}
+  \item {Matrix\+Ref}
+    \subitem {fcal\+::ast\+::\+Matrix\+Ref}, \hyperpage{46}
+  \item {My\+Sequence$<$ T, N $>$}, \hyperpage{46}
+
+  \indexspace
+
+  \item {Nested\+Or\+Func\+Call}
+    \subitem {fcal\+::ast\+::\+Nested\+Or\+Func\+Call}, \hyperpage{48}
+  \item {Not\+Expr}
+    \subitem {fcal\+::ast\+::\+Not\+Expr}, \hyperpage{51}
+
+  \indexspace
+
+  \item {Paren\+Expr}
+    \subitem {fcal\+::ast\+::\+Paren\+Expr}, \hyperpage{54}
+  \item {parse\+\_\+addition}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+decl}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+division}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+false\+\_\+kwd}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+float\+\_\+const}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+if\+\_\+expr}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{55}
+  \item {parse\+\_\+int\+\_\+const}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+let\+\_\+expr}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+matrix\+\_\+decl}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+multiplication}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+nested\+\_\+expr}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+not\+\_\+expr}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+relational\+\_\+expr}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+standard\+\_\+decl}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+stmt}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{56}
+  \item {parse\+\_\+stmts}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{57}
+  \item {parse\+\_\+string\+\_\+const}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{57}
+  \item {parse\+\_\+subtraction}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{57}
+  \item {parse\+\_\+true\+\_\+kwd}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{57}
+  \item {parse\+\_\+variable\+\_\+name}
+    \subitem {fcal\+::parser\+::\+Parser}, \hyperpage{57}
+  \item {Print\+Stmt}
+    \subitem {fcal\+::ast\+::\+Print\+Stmt}, \hyperpage{60}
+  \item {Program}
+    \subitem {fcal\+::ast\+::\+Program}, \hyperpage{62}
+
+  \indexspace
+
+  \item {Repeat\+Stmt}
+    \subitem {fcal\+::ast\+::\+Repeat\+Stmt}, \hyperpage{65}
+
+  \indexspace
+
+  \item {Scan}
+    \subitem {fcal\+::scanner\+::\+Scanner}, \hyperpage{66}
+  \item {Scanner}
+    \subitem {fcal\+::scanner\+::\+Scanner}, \hyperpage{66}
+  \item {Seq\+Stmts}
+    \subitem {fcal\+::ast\+::\+Seq\+Stmts}, \hyperpage{68}
+  \item {Stmt\+Decl}
+    \subitem {fcal\+::ast\+::\+Stmt\+Decl}, \hyperpage{72}
+
+  \indexspace
+
+  \item {Token}
+    \subitem {fcal\+::scanner\+::\+Token}, \hyperpage{75}
+  \item {Type\+Const}
+    \subitem {fcal\+::ast\+::\+Type\+Const}, \hyperpage{78}
+  \item {Type\+Decl}
+    \subitem {fcal\+::ast\+::\+Type\+Decl}, \hyperpage{80}
+
+  \indexspace
+
+  \item {unparse}
+    \subitem {fcal\+::ast\+::\+Assign\+Long\+Stmt}, \hyperpage{8}
+    \subitem {fcal\+::ast\+::\+Assign\+Stmt}, \hyperpage{10}
+    \subitem {fcal\+::ast\+::\+Binary\+Op}, \hyperpage{12}
+    \subitem {fcal\+::ast\+::\+Block\+Stmt}, \hyperpage{14}
+    \subitem {fcal\+::ast\+::\+Bool\+False}, \hyperpage{15}
+    \subitem {fcal\+::ast\+::\+Bool\+True}, \hyperpage{17}
+    \subitem {fcal\+::ast\+::\+Empty\+Stmts}, \hyperpage{21}
+    \subitem {fcal\+::ast\+::\+End\+Stmt}, \hyperpage{23}
+    \subitem {fcal\+::ast\+::\+If\+Else\+Stmt}, \hyperpage{31}
+    \subitem {fcal\+::ast\+::\+If\+Expr}, \hyperpage{33}
+    \subitem {fcal\+::ast\+::\+If\+Stmt}, \hyperpage{35}
+    \subitem {fcal\+::ast\+::\+Let\+Expr}, \hyperpage{39}
+    \subitem {fcal\+::ast\+::\+Matrix\+Decl}, \hyperpage{42}
+    \subitem {fcal\+::ast\+::\+Matrix\+Long\+Decl}, \hyperpage{44}
+    \subitem {fcal\+::ast\+::\+Matrix\+Ref}, \hyperpage{46}
+    \subitem {fcal\+::ast\+::\+Nested\+Or\+Func\+Call}, \hyperpage{48}
+    \subitem {fcal\+::ast\+::\+Not\+Expr}, \hyperpage{51}
+    \subitem {fcal\+::ast\+::\+Paren\+Expr}, \hyperpage{54}
+    \subitem {fcal\+::ast\+::\+Print\+Stmt}, \hyperpage{60}
+    \subitem {fcal\+::ast\+::\+Program}, \hyperpage{62}
+    \subitem {fcal\+::ast\+::\+Repeat\+Stmt}, \hyperpage{65}
+    \subitem {fcal\+::ast\+::\+Seq\+Stmts}, \hyperpage{68}
+    \subitem {fcal\+::ast\+::\+Stmt\+Decl}, \hyperpage{72}
+    \subitem {fcal\+::ast\+::\+Type\+Const}, \hyperpage{78}
+    \subitem {fcal\+::ast\+::\+Type\+Decl}, \hyperpage{80}
+    \subitem {fcal\+::ast\+::\+Var\+Name}, \hyperpage{82}
+    \subitem {fcal\+::ast\+::\+While\+Stmt}, \hyperpage{84}
+
+  \indexspace
+
+  \item {Var\+Name}
+    \subitem {fcal\+::ast\+::\+Var\+Name}, \hyperpage{82}
+
+  \indexspace
+
+  \item {While\+Stmt}
+    \subitem {fcal\+::ast\+::\+While\+Stmt}, \hyperpage{84}
+
+\end{theindex}

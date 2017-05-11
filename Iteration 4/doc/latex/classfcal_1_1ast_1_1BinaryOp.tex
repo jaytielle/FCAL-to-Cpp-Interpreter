@@ -1,0 +1,84 @@
+\hypertarget{classfcal_1_1ast_1_1BinaryOp}{}\section{fcal\+:\+:ast\+:\+:Binary\+Op Class Reference}
+\label{classfcal_1_1ast_1_1BinaryOp}\index{fcal\+::ast\+::\+Binary\+Op@{fcal\+::ast\+::\+Binary\+Op}}
+
+
+{\ttfamily \#include $<$ast.\+h$>$}
+
+
+
+Inheritance diagram for fcal\+:\+:ast\+:\+:Binary\+Op\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classfcal_1_1ast_1_1BinaryOp__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for fcal\+:\+:ast\+:\+:Binary\+Op\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classfcal_1_1ast_1_1BinaryOp__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1ast_1_1BinaryOp_ad904b6af1e7ac258d9afaa1d6716df51}{Binary\+Op} (\hyperlink{classfcal_1_1ast_1_1Expr}{Expr} $\ast$expr, std\+::string $\ast$op, \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} $\ast$expr2)
+\item 
+std\+::string \hyperlink{classfcal_1_1ast_1_1BinaryOp_a7f019bd362a138dd80450dfdafd2325a}{unparse} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} \hyperlink{classfcal_1_1ast_1_1BinaryOp_a7f019bd362a138dd80450dfdafd2325a}{unparse()} method. \end{DoxyCompactList}\item 
+std\+::string {\bfseries cpp\+\_\+code} ()\hypertarget{classfcal_1_1ast_1_1BinaryOp_a17df80baf8b6fd11dcd827941d6b424f}{}\label{classfcal_1_1ast_1_1BinaryOp_a17df80baf8b6fd11dcd827941d6b424f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} class inherits directly from the parent \hyperlink{classfcal_1_1ast_1_1Expr}{Expr} class. The \hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} class combines the redundant nature of the implementing multiple production rule classes for the various binary operators including\+: $\ast$, /, +, -\/, $>$, $>$=, $<$, $<$=, ==, !=, \&\& and $\vert$$\vert$.
+
+The constructor determines the type of operator associated with expression by defining the $\ast$op to the lexeme of the prev\+\_\+token\+\_\+ for the matched signed. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::ast\+::\+Binary\+Op@{fcal\+::ast\+::\+Binary\+Op}!Binary\+Op@{Binary\+Op}}
+\index{Binary\+Op@{Binary\+Op}!fcal\+::ast\+::\+Binary\+Op@{fcal\+::ast\+::\+Binary\+Op}}
+\subsubsection[{\texorpdfstring{Binary\+Op(\+Expr $\ast$expr, std\+::string $\ast$op, Expr $\ast$expr2)}{BinaryOp(Expr *expr, std::string *op, Expr *expr2)}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::ast\+::\+Binary\+Op\+::\+Binary\+Op (
+\begin{DoxyParamCaption}
+\item[{{\bf Expr} $\ast$}]{expr, }
+\item[{std\+::string $\ast$}]{op, }
+\item[{{\bf Expr} $\ast$}]{expr2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}\hypertarget{classfcal_1_1ast_1_1BinaryOp_ad904b6af1e7ac258d9afaa1d6716df51}{}\label{classfcal_1_1ast_1_1BinaryOp_ad904b6af1e7ac258d9afaa1d6716df51}
+\hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} production rules take the parameters\+: $\ast$expr, $\ast$op and $\ast$expr2 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$expr} & is the L\+HS expression \\
+\hline
+{\em $\ast$op} & is the binary operator \\
+\hline
+{\em $\ast$expr2} & is the R\+HS expression \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{fcal\+::ast\+::\+Binary\+Op@{fcal\+::ast\+::\+Binary\+Op}!unparse@{unparse}}
+\index{unparse@{unparse}!fcal\+::ast\+::\+Binary\+Op@{fcal\+::ast\+::\+Binary\+Op}}
+\subsubsection[{\texorpdfstring{unparse()}{unparse()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string fcal\+::ast\+::\+Binary\+Op\+::unparse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classfcal_1_1ast_1_1BinaryOp_a7f019bd362a138dd80450dfdafd2325a}{}\label{classfcal_1_1ast_1_1BinaryOp_a7f019bd362a138dd80450dfdafd2325a}
+
+
+\hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} \hyperlink{classfcal_1_1ast_1_1BinaryOp_a7f019bd362a138dd80450dfdafd2325a}{unparse()} method. 
+
+\hyperlink{classfcal_1_1ast_1_1BinaryOp}{Binary\+Op} returns the expr\+\_\+, op\+\_\+ and expr2\+\_\+. 
+
+Implements \hyperlink{classfcal_1_1ast_1_1Node_a81865f5a1df593708a39bf492952742a}{fcal\+::ast\+::\+Node}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/ast.\+h\item 
+src/ast.\+cc\end{DoxyCompactItemize}

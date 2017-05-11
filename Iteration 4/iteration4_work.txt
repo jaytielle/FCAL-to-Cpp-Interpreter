@@ -1,0 +1,334 @@
+Team Zubat
+Jennifer Lieu (lieux007)
+Tommy Her (herxx393)
+Section 11
+
+-----------------
+| Jennifer Lieu |
+-----------------
+<< ast.cc >>
+- Created declarations for all CppCode() functions for AST classes
+- Debugged and reformatted some errors with various CppCode() in the AST classes (Joint)
+
+<< Matrix.h >>
+- Created Matrix.h
+
+<< Matrix.cc >>
+- Started Matrix.cc
+
+<< Makefile >>
+- Updated Makefile for dependencies to include codegeneration_tests and additional clean files
+
+-------------
+| Tommy Her |
+-------------
+<< ast.cc >>
+- Debugged and reformatted some errors with various CppCode() in the AST classes (Joint)
+
+<< Matrix.cc >>
+- Finished, updated and debugged issues with Matrix.cc overloading operators
+
+<< my_code_1 and my_code_2 >>
+- Created, tested, and debugged user created my_code_1 and my_code_2 sample files
+
+--------------
+| Commit Log |
+--------------
+Jennifers-Air-4:project Jaytielle$ git log
+commit 629f11d3b54d30c025ae6ae073473bb5bc77a195
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 28 11:56:03 2017 -0500
+
+    Updated Matrix.h and Matrix.cc to include const to adhere to Google style
+
+commit 3699a160e3451eeab3ec057ad90510d7d3a3a4ef
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Fri Apr 28 11:20:29 2017 -0500
+
+    Updated Matrix.cc without using namespace
+
+commit 7a7781fb4a7b558c49592c28187e9a17f953dce6
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Thu Apr 27 23:19:41 2017 -0500
+
+    Updated Makefile. Runs all tests; all tests succeed 100%
+
+commit 6eb87d606a58be7afa452c0b8329b2535339b877
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Thu Apr 27 18:28:44 2017 -0500
+
+    changed my_code_1 data to be different sized matrices, made no big changes t
+
+commit e04e0cc6280d96bfe1a782c462104d539f5a46ec
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Thu Apr 27 13:22:33 2017 -0500
+
+    added comment inside of my_code_2.dsl to tell exactly what was happening wit
+
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit 3c0b17b6c3877a17cb61b477eea317933f1fa2dd
+Author: Jennifer Lieu <lieux007@umn.edu>
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit 3c0b17b6c3877a17cb61b477eea317933f1fa2dd
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 23:54:25 2017 -0500
+
+    Updated Matrix.cc, and ast.cc. Still failing sample_8 and forest_loss_v2
+
+commit eaa4c64bf14be1a6f6e3ad3c9217a59e22a8fa6f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 22:58:37 2017 -0500
+
+    Updated Makefile: commented out regex, scanner, parser and ast tests; fails 
+
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit 3c0b17b6c3877a17cb61b477eea317933f1fa2dd
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 23:54:25 2017 -0500
+
+    Updated Matrix.cc, and ast.cc. Still failing sample_8 and forest_loss_v2
+
+commit eaa4c64bf14be1a6f6e3ad3c9217a59e22a8fa6f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 22:58:37 2017 -0500
+
+    Updated Makefile: commented out regex, scanner, parser and ast tests; fails 
+
+commit d8c7ea4eb18f81dea29e7ae5704afd179b92998f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 16:42:05 2017 -0500
+
+    Updated VarName to output matrix::matrix_read()
+
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit 3c0b17b6c3877a17cb61b477eea317933f1fa2dd
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 23:54:25 2017 -0500
+
+    Updated Matrix.cc, and ast.cc. Still failing sample_8 and forest_loss_v2
+
+commit eaa4c64bf14be1a6f6e3ad3c9217a59e22a8fa6f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 22:58:37 2017 -0500
+
+    Updated Makefile: commented out regex, scanner, parser and ast tests; fails 
+
+commit d8c7ea4eb18f81dea29e7ae5704afd179b92998f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 16:42:05 2017 -0500
+
+    Updated VarName to output matrix::matrix_read()
+
+commit c22ceb0478d0bafab307cc2c6498439b4cf9b329
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 16:04:17 2017 -0500
+
+    Tweaked Makefile???
+
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-
+
+commit 3c0b17b6c3877a17cb61b477eea317933f1fa2dd
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 23:54:25 2017 -0500
+
+    Updated Matrix.cc, and ast.cc. Still failing sample_8 and forest_loss_v2
+
+commit eaa4c64bf14be1a6f6e3ad3c9217a59e22a8fa6f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 22:58:37 2017 -0500
+
+    Updated Makefile: commented out regex, scanner, parser and ast tests; fails 
+
+commit d8c7ea4eb18f81dea29e7ae5704afd179b92998f
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 16:42:05 2017 -0500
+
+    Updated VarName to output matrix::matrix_read()
+
+commit c22ceb0478d0bafab307cc2c6498439b4cf9b329
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 16:04:17 2017 -0500
+
+    Tweaked Makefile???
+
+commit 5888c2ff279e0099d83edba0a9adbda19a0984e3
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 15:44:39 2017 -0500
+
+    Updated CppCode() in ast.cc
+
+commit c954b807f2ae1566993a293e4f2fd434c1fa722a
+Author: Jennifer Lieu <lieux007@umn.edu>
+Date:   Tue Apr 18 15:24:58 2017 -0500
+:
+commit df69ed2f5aab8dc0f1df1d71bf5f8c804a9b0f9d
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 18:48:25 2017 -0500
+
+    fixed the BinOp to include parenthesis in the correct place, now passes the 
+
+commit 093cbcf1cc433ee77b5b83ee4379dfa5806148b0
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Sun Apr 23 15:36:47 2017 -0500
+
+    added the matrix operator overloaders, the output and expected results are e
+
+commit d7c29c557f0762a457ed88db226b4f9b4b964031
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 18:27:23 2017 -0500
+
+    added a space in the (operations) function at the bottom to fix differences 
+
+commit 33c390d326d4614e7bd67297592fcf31bbc39caf
+Merge: 02e742e 3c0b17b
+Author: Tommy Her <herxx393@umn.edu>
+Date:   Wed Apr 19 14:41:26 2017 -0500
+
+    Merge branch 'master' of https://github.umn.edu/umn-csci-3081S17/repo-group-

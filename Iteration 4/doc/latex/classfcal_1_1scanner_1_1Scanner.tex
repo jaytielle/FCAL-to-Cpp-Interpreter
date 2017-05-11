@@ -1,0 +1,89 @@
+\hypertarget{classfcal_1_1scanner_1_1Scanner}{}\section{fcal\+:\+:scanner\+:\+:Scanner Class Reference}
+\label{classfcal_1_1scanner_1_1Scanner}\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+
+
+{\ttfamily \#include $<$scanner.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner()} constructor. \end{DoxyCompactList}\item 
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}{$\sim$\+Scanner} ()\hypertarget{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}{}\label{classfcal_1_1scanner_1_1Scanner_a7a35882ef749209bce3146916e3a8aec}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner()} deconstructor. \end{DoxyCompactList}\item 
+void \hyperlink{classfcal_1_1scanner_1_1Scanner_a20d520febc54e6dfce573c4cde7a589b}{Init\+Regex\+Token\+Array} ()
+\begin{DoxyCompactList}\small\item\em Initalizes an array of regular expressions associated with its token type. \end{DoxyCompactList}\item 
+\hyperlink{classfcal_1_1scanner_1_1Token}{Token} $\ast$ \hyperlink{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}{Scan} (const char $\ast$text)
+\begin{DoxyCompactList}\small\item\em Scan muethod that reads through a file to determine token type matches. \end{DoxyCompactList}\item 
+int \hyperlink{classfcal_1_1scanner_1_1Scanner_a5a4bdc79ef02c9e65467a94594dfa0d0}{consume\+\_\+whitespace\+\_\+and\+\_\+comments} (regex\+\_\+t $\ast$white\+\_\+space, regex\+\_\+t $\ast$block\+\_\+comment, regex\+\_\+t $\ast$single\+\_\+comment, const char $\ast$text)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+regex\+\_\+t $\ast$ {\bfseries regex\+\_\+token\+\_\+array} \mbox{[}45\mbox{]}\hypertarget{classfcal_1_1scanner_1_1Scanner_a80e9f9b7081a3dc4af5f7d59c38bb5dd}{}\label{classfcal_1_1scanner_1_1Scanner_a80e9f9b7081a3dc4af5f7d59c38bb5dd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classfcal_1_1scanner_1_1Scanner}{Scanner} class defines the various methods and attributes associated with scanning in a file to determine the token types. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Scanner@{Scanner}}
+\index{Scanner@{Scanner}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Scanner()}{Scanner()}}]{\setlength{\rightskip}{0pt plus 5cm}fcal\+::scanner\+::\+Scanner\+::\+Scanner (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{}\label{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}
+
+
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner()} constructor. 
+
+\hyperlink{classfcal_1_1scanner_1_1Scanner_a606874481764d7a73f55364a32f09e56}{Scanner()} constructor; calls to Init\+Regex\+Token\+Array to initalize array. 
+
+\subsection{Member Function Documentation}
+\index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!consume\+\_\+whitespace\+\_\+and\+\_\+comments@{consume\+\_\+whitespace\+\_\+and\+\_\+comments}}
+\index{consume\+\_\+whitespace\+\_\+and\+\_\+comments@{consume\+\_\+whitespace\+\_\+and\+\_\+comments}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{consume\+\_\+whitespace\+\_\+and\+\_\+comments(regex\+\_\+t $\ast$white\+\_\+space, regex\+\_\+t $\ast$block\+\_\+comment, regex\+\_\+t $\ast$single\+\_\+comment, const char $\ast$text)}{consume_whitespace_and_comments(regex_t *white_space, regex_t *block_comment, regex_t *single_comment, const char *text)}}]{\setlength{\rightskip}{0pt plus 5cm}int fcal\+::scanner\+::\+Scanner\+::consume\+\_\+whitespace\+\_\+and\+\_\+comments (
+\begin{DoxyParamCaption}
+\item[{regex\+\_\+t $\ast$}]{white\+\_\+space, }
+\item[{regex\+\_\+t $\ast$}]{block\+\_\+comment, }
+\item[{regex\+\_\+t $\ast$}]{single\+\_\+comment, }
+\item[{const char $\ast$}]{text}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a5a4bdc79ef02c9e65467a94594dfa0d0}{}\label{classfcal_1_1scanner_1_1Scanner_a5a4bdc79ef02c9e65467a94594dfa0d0}
+The consume\+\_\+whitespace\+\_\+and\+\_\+comments method scans through a file or string and looks for comment lines, block comments and white spaces and removes them from consumption so that the Scan method can pass through the file without mistaking one of them for a token type. \index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Init\+Regex\+Token\+Array@{Init\+Regex\+Token\+Array}}
+\index{Init\+Regex\+Token\+Array@{Init\+Regex\+Token\+Array}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Init\+Regex\+Token\+Array()}{InitRegexTokenArray()}}]{\setlength{\rightskip}{0pt plus 5cm}void fcal\+::scanner\+::\+Scanner\+::\+Init\+Regex\+Token\+Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_a20d520febc54e6dfce573c4cde7a589b}{}\label{classfcal_1_1scanner_1_1Scanner_a20d520febc54e6dfce573c4cde7a589b}
+
+
+Initalizes an array of regular expressions associated with its token type. 
+
+Init\+Regex\+Token\+Array creates an array of regular expressions that matches to the token types, and the array is indexed based on the enum k\+Token\+Enum\+Type variable names. \index{fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}!Scan@{Scan}}
+\index{Scan@{Scan}!fcal\+::scanner\+::\+Scanner@{fcal\+::scanner\+::\+Scanner}}
+\subsubsection[{\texorpdfstring{Scan(const char $\ast$text)}{Scan(const char *text)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Token} $\ast$ fcal\+::scanner\+::\+Scanner\+::\+Scan (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{text}
+\end{DoxyParamCaption}
+)}\hypertarget{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}{}\label{classfcal_1_1scanner_1_1Scanner_afe81aba5714ee2132baaf9546b08dc87}
+
+
+Scan muethod that reads through a file to determine token type matches. 
+
+The Scan method reads in a file or string, but if the file or string is determined to be N\+U\+LL, than the Scan method will return N\+U\+LL and terminate. If the Scan continues then it will check for an E\+OF character before continuing to scan in all the characters. As the Scan method scans the file, it will iterate through the Init\+Regex\+Token\+Array to determine possible matches to the string; as it finds a given match, it stores the longest max\+\_\+num\+\_\+matched\+\_\+chars and once it\textquotesingle{}s done iterating through the string, it will return the token match\+\_\+type. As it returns the match\+\_\+type it will push the determined string of characters to an array list of tokens, which stores the token type, string and a pointer to the next token on an array. Once the scan reaches an E\+OF character, it will return the array list of tokens. 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$text} & is a string or file that is read by the scanner \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/scanner.\+h\item 
+src/scanner.\+cc\end{DoxyCompactItemize}
